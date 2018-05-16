@@ -1,0 +1,1062 @@
+[ 2017-04-26T18:32:22+08:00 ] ::1 ::1 GET /bick/public/
+[ log ] localhost/bick/public/ [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：2,678.45kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\bick\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\bick\public/../application/index\view\index\index.html [ array (
+  0 => 'confs',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=bick;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:22+08:00 ] ::1 ::1 GET /bick/public/static/index/style/jquery.error.js
+[ log ] localhost/bick/public/static/index/style/jquery.error.js [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：1,565.64kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:22+08:00 ] ::1 ::1 GET /bick/public/static/index/style/jquery.form.js
+[ log ] localhost/bick/public/static/index/style/jquery.form.js [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,565.60kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:22+08:00 ] ::1 ::1 GET /bick/public/static/index/images/next01.png
+[ log ] localhost/bick/public/static/index/images/next01.png [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,565.66kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:22+08:00 ] ::1 ::1 GET /bick/public/static/index/images/loading.gif
+[ log ] localhost/bick/public/static/index/images/loading.gif [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：1,565.90kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:22+08:00 ] ::1 ::1 GET /bick/public/static/index/images/focus-bg2.png
+[ log ] localhost/bick/public/static/index/images/focus-bg2.png [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,565.88kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:22+08:00 ] ::1 ::1 GET /bick/public/static/index/images/xh_area_title_h3.png
+[ log ] localhost/bick/public/static/index/images/xh_area_title_h3.png [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,566.08kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:22+08:00 ] ::1 ::1 GET /bick/public/static/index/images/sitemap-dot.gif
+[ log ] localhost/bick/public/static/index/images/sitemap-dot.gif [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,566.09kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:22+08:00 ] ::1 ::1 GET /bick/public/static/index/images/scroll.png
+[ log ] localhost/bick/public/static/index/images/scroll.png [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,565.92kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:27+08:00 ] ::1 ::1 GET /bick/public/
+[ log ] localhost/bick/public/ [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：2,678.54kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\bick\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\bick\public/../application/index\view\index\index.html [ array (
+  0 => 'confs',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bick;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:27+08:00 ] ::1 ::1 GET /bick/public/static/index/style/jquery.form.js
+[ log ] localhost/bick/public/static/index/style/jquery.form.js [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,565.60kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:27+08:00 ] ::1 ::1 GET /bick/public/static/index/style/jquery.error.js
+[ log ] localhost/bick/public/static/index/style/jquery.error.js [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,565.63kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:27+08:00 ] ::1 ::1 GET /bick/public/static/index/images/next01.png
+[ log ] localhost/bick/public/static/index/images/next01.png [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,565.66kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:27+08:00 ] ::1 ::1 GET /bick/public/static/index/style/jquery.form.js
+[ log ] localhost/bick/public/static/index/style/jquery.form.js [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,565.60kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:27+08:00 ] ::1 ::1 GET /bick/public/static/index/images/next01.png
+[ log ] localhost/bick/public/static/index/images/next01.png [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：1,565.66kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:27+08:00 ] ::1 ::1 GET /bick/public/static/index/images/loading.gif
+[ log ] localhost/bick/public/static/index/images/loading.gif [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,565.90kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:27+08:00 ] ::1 ::1 GET /bick/public/static/index/images/focus-bg2.png
+[ log ] localhost/bick/public/static/index/images/focus-bg2.png [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：1,565.88kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:27+08:00 ] ::1 ::1 GET /bick/public/static/index/images/xh_area_title_h3.png
+[ log ] localhost/bick/public/static/index/images/xh_area_title_h3.png [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：1,566.09kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:27+08:00 ] ::1 ::1 GET /bick/public/static/index/images/scroll.png
+[ log ] localhost/bick/public/static/index/images/scroll.png [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,565.92kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:32:27+08:00 ] ::1 ::1 GET /bick/public/static/index/images/sitemap-dot.gif
+[ log ] localhost/bick/public/static/index/images/sitemap-dot.gif [运行时间：0.073005s][吞吐率：13.70req/s] [内存消耗：1,566.09kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:12+08:00 ] ::1 ::1 GET /bick/public/
+[ log ] localhost/bick/public/ [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,678.34kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\bick\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\bick\public/../application/index\view\index\index.html [ array (
+  0 => 'confs',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=bick;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:12+08:00 ] ::1 ::1 GET /bick/public/static/index/style/jquery.error.js
+[ log ] localhost/bick/public/static/index/style/jquery.error.js [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,565.82kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:12+08:00 ] ::1 ::1 GET /bick/public/static/index/style/jquery.form.js
+[ log ] localhost/bick/public/static/index/style/jquery.form.js [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,565.81kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:12+08:00 ] ::1 ::1 GET /bick/public/static/index/images/xh_area_title_h3.png
+[ log ] localhost/bick/public/static/index/images/xh_area_title_h3.png [运行时间：0.077005s][吞吐率：12.99req/s] [内存消耗：1,565.99kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:12+08:00 ] ::1 ::1 GET /bick/public/static/index/images/sitemap-dot.gif
+[ log ] localhost/bick/public/static/index/images/sitemap-dot.gif [运行时间：0.092005s][吞吐率：10.87req/s] [内存消耗：1,566.04kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:12+08:00 ] ::1 ::1 GET /bick/public/static/index/images/next01.png
+[ log ] localhost/bick/public/static/index/images/next01.png [运行时间：0.132007s][吞吐率：7.58req/s] [内存消耗：1,565.90kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:12+08:00 ] ::1 ::1 GET /bick/public/static/index/images/loading.gif
+[ log ] localhost/bick/public/static/index/images/loading.gif [运行时间：0.117007s][吞吐率：8.55req/s] [内存消耗：1,565.98kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:12+08:00 ] ::1 ::1 GET /bick/public/static/index/images/focus-bg2.png
+[ log ] localhost/bick/public/static/index/images/focus-bg2.png [运行时间：0.117007s][吞吐率：8.55req/s] [内存消耗：1,566.00kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:12+08:00 ] ::1 ::1 GET /bick/public/static/index/images/scroll.png
+[ log ] localhost/bick/public/static/index/images/scroll.png [运行时间：0.091005s][吞吐率：10.99req/s] [内存消耗：1,566.02kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:12+08:00 ] ::1 ::1 GET /bick/public/
+[ log ] localhost/bick/public/ [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：2,678.34kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\bick\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\bick\public/../application/index\view\index\index.html [ array (
+  0 => 'confs',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bick;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:13+08:00 ] ::1 ::1 GET /bick/public/static/index/style/jquery.error.js
+[ log ] localhost/bick/public/static/index/style/jquery.error.js [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,565.82kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:13+08:00 ] ::1 ::1 GET /bick/public/static/index/style/jquery.form.js
+[ log ] localhost/bick/public/static/index/style/jquery.form.js [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,565.81kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:13+08:00 ] ::1 ::1 GET /bick/public/static/index/images/next01.png
+[ log ] localhost/bick/public/static/index/images/next01.png [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,565.90kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:13+08:00 ] ::1 ::1 GET /bick/public/static/index/images/loading.gif
+[ log ] localhost/bick/public/static/index/images/loading.gif [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：1,565.98kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:13+08:00 ] ::1 ::1 GET /bick/public/static/index/images/xh_area_title_h3.png
+[ log ] localhost/bick/public/static/index/images/xh_area_title_h3.png [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：1,565.99kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:13+08:00 ] ::1 ::1 GET /bick/public/static/index/images/sitemap-dot.gif
+[ log ] localhost/bick/public/static/index/images/sitemap-dot.gif [运行时间：0.074005s][吞吐率：13.51req/s] [内存消耗：1,566.04kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:13+08:00 ] ::1 ::1 GET /bick/public/static/index/images/scroll.png
+[ log ] localhost/bick/public/static/index/images/scroll.png [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：1,566.02kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-26T18:33:13+08:00 ] ::1 ::1 GET /bick/public/static/index/images/focus-bg2.png
+[ log ] localhost/bick/public/static/index/images/focus-bg2.png [运行时间：0.136008s][吞吐率：7.35req/s] [内存消耗：1,566.00kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=418549760; UM_distinctid=15ba9af7e5510-07dcab63f6b43e-5b123112-100200-15ba9af7e5681; FashionPlusUserIdentity=0; FashionPlusUserId=13540087667; FashionPlusIsLogin=true; PHPSESSID=7oksl1sr7bd0d2ldn6m7kctr31; CNZZDATA1261810189=771366169-1493199846-%7C1493201123; pgv_si=s4977127424',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

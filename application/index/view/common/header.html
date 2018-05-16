@@ -1,0 +1,56 @@
+<div id="header_wrap">
+    <div id="header">
+        <div style="float: left; width: 310px;">
+            <h1>
+                <a href="/" title="宽屏大气文章类--41天鹰模板">宽屏大气文章类--41天鹰模板</a>
+
+                <div class="" id="logo-sub-class">
+                </div>
+            </h1>
+        </div>
+        <div id="navi">
+            <ul id="jsddm">
+                <li><a class="navi_home" href="http://localhost/bick/public/index">首页</a></li>
+                <!-- <li><a class="navi_home" target="_blank" href="http://www.chuanke.com/s2260700.html">ThinkPHP5视频教程</a>
+                </li>-->
+                {volist name="cates" id="cate"}
+                <li>
+                    <a href="{if condition="$cate['type'] eq 1"}{:url('Artlist/artlist',array('cateid'=>$cate['id']))}
+                    {elseif condition="$cate['type'] eq 2"}{:url('Page/page',array('cateid'=>$cate['id']))}
+                    {else}{:url('Imglist/imglist',array('cateid'=>$cate['id']))}{/if}">{$cate.catename}</a>
+                    {if condition="$cate['ccate'] neq 0"}
+                    <ul>
+                        <?php foreach($cate['ccate'] as $k=>$v):?>
+                        <li><a href="{:url('Artlist/artlist',array('cateid'=>$v['id']))}">
+                            <?php echo $v['catename'];?></a></li>
+                        <?php endforeach?>
+                    </ul>
+                    {/if}
+                </li>
+                {/volist}
+            </ul>
+            <div style="clear: both;">
+
+            </div>
+
+
+        </div>
+        <div style="float: right; width: 209px;">
+            <div class="widget" style="height: 30px; padding-top: 20px;">
+                <div style="float: left;">
+                    <form name="formsearch" action="{:url('Search/search')}" method="get">
+                        <input name="keywords" type="text" style="background-color: #000000;padding-left: 10px; font-size: 12px;font-family: 'Microsoft Yahei'; color: #999999;height: 29px; width: 160px; border: solid 1px #666666; line-height: 28px;" id="go" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}" onblur="if(this.value==''){this.value='在这里搜索...';}"/>
+                    </form>
+                </div>
+                <div style="float: left;">
+                    <img src="__PUBLIC__/images/search-new.png" id="imgSearch" style="cursor: pointer; margin: 0px;
+                        padding: 0px;" onclick="subForm()"/></div>
+                <div style="clear: both;">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
